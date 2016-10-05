@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String resultText = resultEdit.getText().toString().trim();
                 if (resultText.isEmpty() || result != Integer.parseInt(resultText)) {
-                    Snackbar.make(rootLayout, "Policz jeszcze raz smyku!", Snackbar.LENGTH_LONG)
+                    Snackbar.make(rootLayout, "Policz jeszcze raz!", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
                     return;
                 }
@@ -58,10 +58,10 @@ public class MainActivity extends AppCompatActivity {
 
                 String resultText = resultEdit.getText().toString().trim();
                 if (resultText.isEmpty() == false && result == Integer.parseInt(resultText)) {
-                    Snackbar.make(rootLayout, "Brawo Jacek!", Snackbar.LENGTH_LONG)
+                    Snackbar.make(rootLayout, "Brawo!", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
                 } else {
-                    Snackbar.make(rootLayout, "Policz jeszcze raz smyku!", Snackbar.LENGTH_LONG)
+                    Snackbar.make(rootLayout, "Policz jeszcze raz!", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
 
                 }
