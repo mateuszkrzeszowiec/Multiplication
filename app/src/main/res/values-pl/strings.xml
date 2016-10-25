@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mnożenie</string>
+    <string name="try_again">Spróbuj jeszcze raz!</string>
+    <string name="well_done">Brawo!</string>
+</resources>
