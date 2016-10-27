@@ -2,4 +2,6 @@
     <string name="app_name">Multiplication</string>
     <string name="try_again">Try again!</string>
     <string name="well_done">Well done!</string>
+    <string name="check">Check</string>
+    <string name="next">Next</string>
 </resources>

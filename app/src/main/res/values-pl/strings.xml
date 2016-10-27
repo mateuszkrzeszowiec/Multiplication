@@ -2,4 +2,6 @@
     <string name="app_name">Mnożenie</string>
     <string name="try_again">Spróbuj jeszcze raz!</string>
     <string name="well_done">Brawo!</string>
+    <string name="check">Sprawdź</string>
+    <string name="next">Następny</string>
 </resources>
